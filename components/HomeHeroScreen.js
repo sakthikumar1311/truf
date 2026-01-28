@@ -12,7 +12,7 @@ const HomeHeroScreen = ({ navigation }) => (
     </TouchableOpacity>
     <View style={styles.navButtons}>
       <TouchableOpacity style={styles.navButton} onPress={() => navigation.navigate('Home')}>
-        <Text style={styles.navButtonText}>Home</Text>
+        <Text style={styles.navButtonText}></Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.navButton} onPress={() => navigation.navigate('SignIn')}>
         <Text style={styles.navButtonText}>Sign In</Text>
